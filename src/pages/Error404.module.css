@@ -1,0 +1,42 @@
+/* src/pages/Error404.module.css */
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(204, 84, 40);
+  }
+  
+  .title {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .subtitle {
+    font-size: 3rem;
+    margin-bottom: 21rem;
+    color: rgb(189, 129, 18);
+  }
+  
+  .button {
+    background-color: transparent;
+    border: 2px solid #f1c40f;
+    color: #f1c40f;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #f1c40f;
+    color: white;
+  }
+  
